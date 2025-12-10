@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env / config
+.env
+
+# Data / uploads
+data.sqlite
+uploads/
+
