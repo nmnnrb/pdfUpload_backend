@@ -2,9 +2,25 @@
 
 Express + SQLite API with MVC layout to upload, list, download, and delete PDF files.
 
-## Setup
-- Install dependencies: `npm install`
-- Start server: `npm start` (uses `PORT` env var or 3000)
+## Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nmnnrb/pdfUpload_backend.git
+   cd pdfUpload_backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start server:
+   ```bash
+   npm start
+   ```
+   Or for development with auto-reload:
+   ```bash
+   npm run dev
+   ```
+   The server runs on `PORT` env var or defaults to 3000.
 
 ## Endpoints
 - `POST /files` (multipart, field `file`, PDF only) → create/upload (alias: `POST /upload`)
